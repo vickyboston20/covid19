@@ -2,21 +2,21 @@
 
 The covid stats for india statewise using scrapy framework-python (web scraped form the http://www.mohfw.gov.in/ ) 
 
-##PREREQUISITE
+## PREREQUISITE
 docker
 
 docker-compose
 
-##How to run docker
+## How to run docker
 docker-compose build
 
 docker-compose up -d
 
-##For accessing api
+## For accessing api
 
 http://localhost:3000/crawl.json?start_requests=true&spider_name=india_states
 
-##OUTPUT as Json
+## OUTPUT as Json
 covid.json
 ----
 ```
