@@ -5,4 +5,4 @@ services:
     ports:
       - "3000:3000"
     command: >
-      sh -c "scrapyrt -p 3000"
+      sh -c "scrapyrt -i 0.0.0.0 -p 3000"

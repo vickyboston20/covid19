@@ -1,9 +1,7 @@
-FROM python:3.8
-MAINTAINER vickyboston20
-
-ENV PYTHONUNBUFFERED 1
-
-RUN mkdir -p /usr/src/app
+FROM continuumio/miniconda3
+RUN conda create -n env python=3.7
+RUN echo "source activate env" > ~/.bashrc
+ENV PATH /opt/conda/envs/env/bin:$PATH
 WORKDIR /usr/src/app
 COPY . /usr/src/app
 
