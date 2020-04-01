@@ -1,0 +1,197 @@
+[
+  {
+    "states_no": "1",
+    "states_name": "Andhra Pradesh",
+    "total_confirmed_cases": "23",
+    "cured_discharged_migrated": "1",
+    "death": "0"
+  },
+  {
+    "states_no": "2",
+    "states_name": "Andaman and Nicobar Islands",
+    "total_confirmed_cases": "9",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "3",
+    "states_name": "Bihar",
+    "total_confirmed_cases": "15",
+    "cured_discharged_migrated": "0",
+    "death": "1"
+  },
+  {
+    "states_no": "4",
+    "states_name": "Chandigarh",
+    "total_confirmed_cases": "8",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "5",
+    "states_name": "Chhattisgarh",
+    "total_confirmed_cases": "7",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "6",
+    "states_name": "Delhi",
+    "total_confirmed_cases": "87",
+    "cured_discharged_migrated": "6",
+    "death": "2"
+  },
+  {
+    "states_no": "7",
+    "states_name": "Goa",
+    "total_confirmed_cases": "5",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "8",
+    "states_name": "Gujarat",
+    "total_confirmed_cases": "69",
+    "cured_discharged_migrated": "1",
+    "death": "6"
+  },
+  {
+    "states_no": "9",
+    "states_name": "Haryana",
+    "total_confirmed_cases": "36",
+    "cured_discharged_migrated": "18",
+    "death": "0"
+  },
+  {
+    "states_no": "10",
+    "states_name": "Himachal Pradesh",
+    "total_confirmed_cases": "3",
+    "cured_discharged_migrated": "0",
+    "death": "1"
+  },
+  {
+    "states_no": "11",
+    "states_name": "Jammu and Kashmir",
+    "total_confirmed_cases": "48",
+    "cured_discharged_migrated": "2",
+    "death": "2"
+  },
+  {
+    "states_no": "12",
+    "states_name": "Karnataka",
+    "total_confirmed_cases": "83",
+    "cured_discharged_migrated": "5",
+    "death": "3"
+  },
+  {
+    "states_no": "13",
+    "states_name": "Kerala",
+    "total_confirmed_cases": "202",
+    "cured_discharged_migrated": "19",
+    "death": "1"
+  },
+  {
+    "states_no": "14",
+    "states_name": "Ladakh",
+    "total_confirmed_cases": "13",
+    "cured_discharged_migrated": "3",
+    "death": "0"
+  },
+  {
+    "states_no": "15",
+    "states_name": "Madhya Pradesh",
+    "total_confirmed_cases": "47",
+    "cured_discharged_migrated": "0",
+    "death": "3"
+  },
+  {
+    "states_no": "16",
+    "states_name": "Maharashtra",
+    "total_confirmed_cases": "198",
+    "cured_discharged_migrated": "25",
+    "death": "8"
+  },
+  {
+    "states_no": "17",
+    "states_name": "Manipur",
+    "total_confirmed_cases": "1",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "18",
+    "states_name": "Mizoram",
+    "total_confirmed_cases": "1",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "19",
+    "states_name": "Odisha",
+    "total_confirmed_cases": "3",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "20",
+    "states_name": "Puducherry",
+    "total_confirmed_cases": "1",
+    "cured_discharged_migrated": "0",
+    "death": "0"
+  },
+  {
+    "states_no": "21",
+    "states_name": "Punjab",
+    "total_confirmed_cases": "38",
+    "cured_discharged_migrated": "1",
+    "death": "1"
+  },
+  {
+    "states_no": "22",
+    "states_name": "Rajasthan",
+    "total_confirmed_cases": "59",
+    "cured_discharged_migrated": "3",
+    "death": "0"
+  },
+  {
+    "states_no": "23",
+    "states_name": "Tamil Nadu",
+    "total_confirmed_cases": "67",
+    "cured_discharged_migrated": "4",
+    "death": "1"
+  },
+  {
+    "states_no": "24",
+    "states_name": "Telengana",
+    "total_confirmed_cases": "71",
+    "cured_discharged_migrated": "1",
+    "death": "1"
+  },
+  {
+    "states_no": "25",
+    "states_name": "Uttarakhand",
+    "total_confirmed_cases": "7",
+    "cured_discharged_migrated": "2",
+    "death": "0"
+  },
+  {
+    "states_no": "26",
+    "states_name": "Uttar Pradesh",
+    "total_confirmed_cases": "82",
+    "cured_discharged_migrated": "11",
+    "death": "0"
+  },
+  {
+    "states_no": "27",
+    "states_name": "West Bengal",
+    "total_confirmed_cases": "22",
+    "cured_discharged_migrated": "0",
+    "death": "2"
+  },
+  {
+    "total_india": "Total number of confirmed cases in India",
+    "total_confirmed_cases_india": "1251#",
+    "total_cured_discharged_migrated": "102",
+    "total_death": "32"
+  }
+]
