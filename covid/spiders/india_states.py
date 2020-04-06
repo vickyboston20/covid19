@@ -19,8 +19,8 @@ class IndiaStatesSpider(scrapy.Spider):
             yield {
                 'states_no': states_no,
                 'states_name': states_name,
-                'total_confirmed_cases': total_confirmed_cases,
-                'cured_discharged_migrated': cured_discharged_migrated,
+                'total_cases': total_confirmed_cases,
+                'cured': cured_discharged_migrated,
                 'death': death
             }
 
@@ -31,7 +31,7 @@ class IndiaStatesSpider(scrapy.Spider):
             total_death = total.xpath(".//td[4]/strong/text()").get()
             yield {
                 'total_india': total_india,
-                'total_confirmed_cases_india': total_confirmed_cases_india,
-                'total_cured_discharged_migrated': total_cured_discharged_migrated,
+                'total_cases': total_confirmed_cases_india,
+                'total_cured': total_cured_discharged_migrated,
                 'total_death': total_death
             }
