@@ -31,6 +31,7 @@ class IndiaStatesSpider(scrapy.Spider):
             total_death = total.xpath(".//td[4]/strong/text()").get()
             yield {
                 'total_india': total_india,
+                'country_name': 'India',
                 'total_cases': total_confirmed_cases_india,
                 'total_cured': total_cured_discharged_migrated,
                 'total_death': total_death
