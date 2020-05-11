@@ -8,8 +8,8 @@ class IndiaStatesSpider(scrapy.Spider):
     start_urls = ['http://www.mohfw.gov.in/']
 
     def parse(self, response):
-        rows = response.xpath("//table[@class='table table-striped']/tbody/tr[position()<=32]")
-        total_rows = response.xpath("//table[@class='table table-striped']/tbody/tr[position()=33]")
+        rows = response.xpath("//table[@class='table table-striped']/tbody/tr[position()<=33]")
+        total_rows = response.xpath("//table[@class='table table-striped']/tbody/tr[position()=34]")
         for row in rows:
             states_no = row.xpath(".//td[1]/text()").get()
             states_name = row.xpath(".//td[2]/text()").get()
@@ -32,7 +32,7 @@ class IndiaStatesSpider(scrapy.Spider):
             yield {
                 'total_india': total_india,
                 'country_name': 'India',
-                'total_cases': total_confirmed_cases_india.replace('*', ''),
+                'total_cases': total_confirmed_cases_india.replace('#', ''),
                 'total_cured': total_cured_discharged_migrated,
                 'total_death': total_death
             }
