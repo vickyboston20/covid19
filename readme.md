@@ -16,9 +16,6 @@ docker-compose up -d
 
 http://localhost:3000/crawl.json?start_requests=true&spider_name=india_states
 
-## Hosted api For Demo
-
-http://www.covidindia.ga:3000/crawl.json?start_requests=true&spider_name=india_states
 
 ## OUTPUT as Json
 
